@@ -1,0 +1,114 @@
+{
+  "regime_order": [
+    "High-moisture",
+    "Coupled-cyclonic",
+    "Frontal",
+    "Ridge"
+  ],
+  "regime_colors": {
+    "High-moisture": "#D62728",
+    "Coupled-cyclonic": "#1F77B4",
+    "Frontal": "#2CA02C",
+    "Ridge": "#9467BD"
+  },
+  "pca_features": [
+    "pv300_center_mean",
+    "msl_center_anom",
+    "msl_grad_mean",
+    "t850_grad_mean",
+    "shear_250_850_mean",
+    "d250_center_mean",
+    "d850_center_mean",
+    "w500_center_mean",
+    "vo850_mean"
+  ],
+  "southern_hemisphere_sign_flip": [
+    "vo850_mean",
+    "pv300_center_mean"
+  ],
+  "gmm_component_name_map_for_final_solution": {
+    "0": "Frontal",
+    "1": "Ridge",
+    "2": "Coupled-cyclonic",
+    "3": "High-moisture"
+  },
+  "expected_final_counts": {
+    "High-moisture": 12659,
+    "Coupled-cyclonic": 5075,
+    "Frontal": 12245,
+    "Ridge": 18757
+  },
+  "display_sign_convention": {
+    "PC1": "-PC1 for positive deep ascent in figures only",
+    "PC2": "PC2 for positive cyclonic circulation; verify with loadings if refit",
+    "PC3": "PC3 or -PC3 depending on PCA fit; orient only in visualization, not in archived labels"
+  },
+  "impact_boxes": {
+    "U.S. West Coast": [
+      -130,
+      -117,
+      32,
+      50
+    ],
+    "Alaska / NE Pacific": [
+      -160,
+      -130,
+      52,
+      66
+    ],
+    "Western Europe": [
+      -12,
+      8,
+      36,
+      60
+    ],
+    "East Asia": [
+      118,
+      148,
+      24,
+      46
+    ],
+    "Mediterranean": [
+      -6,
+      36,
+      32,
+      44
+    ],
+    "Greenland / Iceland": [
+      -55,
+      -12,
+      62,
+      82
+    ],
+    "Chile": [
+      -78,
+      -68,
+      -55,
+      -25
+    ],
+    "SE South America": [
+      -60,
+      -40,
+      -42,
+      -22
+    ],
+    "SE Australia / NZ": [
+      145,
+      178,
+      -48,
+      -28
+    ],
+    "South Africa": [
+      15,
+      35,
+      -36,
+      -22
+    ],
+    "Antarctic": [
+      -180,
+      180,
+      -90,
+      -66
+    ]
+  }
+}
