@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "AR genesis regime analysis code"
+message: "If you use this software, please cite the archived Zenodo release and the associated manuscript."
+type: software
+authors:
+  - family-names: Zhou
+    given-names: Yang
+  - family-names: Bercos-Hickey
+    given-names: Emily
+  - family-names: O'Brien
+    given-names: Travis A.
+repository-code: "https://github.com/yangzlbl/ar-genesis-regimes"
+license: BSD-3-Clause
+version: "1.0.0"
+date-released: "2026-09-17"
